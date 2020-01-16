@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GeoLocation.jnlp">
+  <information>
+    <title>GeoLocation</title>
+    <vendor>GAMA</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GeoLocation.jar" size="3856927" download="eager" />
+    <jar href="lib\jxbrowser-7.3.jar" size="8819665" download="eager" />
+    <jar href="lib\jxbrowser-javafx-7.3.jar" size="149404" download="eager" />
+    <jar href="lib\jxbrowser-linux64-7.3.jar" size="60926267" download="eager" />
+    <jar href="lib\jxbrowser-mac-7.3.jar" size="63655667" download="eager" />
+    <jar href="lib\jxbrowser-swing-7.3.jar" size="118707" download="eager" />
+    <jar href="lib\jxbrowser-win32-7.3.jar" size="47237140" download="eager" />
+    <jar href="lib\jxbrowser-win64-7.3.jar" size="48942626" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GeoLocation" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="geolocation.GeoLocation"  name="GeoLocation" />
+  <update check="always"/>
+</jnlp>
